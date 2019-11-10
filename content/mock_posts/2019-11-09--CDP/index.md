@@ -7,8 +7,10 @@ author: Luis Salas
 ![unsplash.com](./franki-chamaki-1K6IQsQbizI-unsplash.jpg)
 ### Evolución a pasos agigantados
 
-En los últimos 10 años la manera de realizar marketing ha tenido una evolución de 180 grados, cuesta creer que hace un poco más de 12 años se lanzó el iPhone (Android salió un año después) y estos se conviertieron en nuestros compañeros inseparables.
-
+En los últimos 10 años la manera de realizar marketing ha tenido una evolución de 180 grados, cuesta creer que hace 12 años se lanzó el iPhone (Android salió un año después) cambiando la manera de sobrevivir en nuestro día a día y abriendo una ventana de posibilidades de ventas y personalización inimaginables. 
+<!---
+ inumerable cantidad de  la manera de dirigir vender a directamten  estos se conviertieron en nuestros compañeros inseparables.
+--->
 ### Que es un CDP?
 
 CDP (_Customer Data Platform_) es un software que recopila y clasifica los datos del cliente / prospectos por medio de una variedad de puntos de contacto. 
