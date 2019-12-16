@@ -5,7 +5,7 @@ cover: frida.jpg
 author: Luis Salas
 ---
 
-![photos.google.com](./frida.jpg)
+![Frida](./frida.jpg)
 
 # En memoria de Frida
 
