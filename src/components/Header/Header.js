@@ -35,25 +35,21 @@ class Header extends React.Component {
     return (
       <React.Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
-          <Link to="/about" className="logoType">
+          <Link to="/" className="logoType">
             <div className="logo">
-              <img src={config.gravatarImgMd5=="" ? avatar : config.gravatarImgMd5 } alt={config.siteTitle} />
+              <img
+                src={config.gravatarImgMd5 == "" ? avatar : config.gravatarImgMd5}
+                alt={config.siteTitle}
+              />
             </div>
             <div className="type">
               <h1>{config.headerTitle}</h1>
               <h2>{config.headerSubTitle}</h2>
             </div>
           </Link>
-            <ScreenWidthContext.Consumer>
-              {width => (
-                <Menu
-                  path={path}
-                  fixed={fixed}
-                  screenWidth={width}
-                  theme={theme}
-                />
-              )}
-            </ScreenWidthContext.Consumer>
+          <ScreenWidthContext.Consumer>
+            {width => <Menu path={path} fixed={fixed} screenWidth={width} theme={theme} />}
+          </ScreenWidthContext.Consumer>
         </header>
         <VisibilitySensor onChange={this.visibilitySensorChange}>
           <div className="sensor" />
