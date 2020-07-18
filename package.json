@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "fontfaceobserver": "^2.0.13",
-    "gatsby": "^2.18.11",
+    "gatsby": "^2.24.4",
     "gatsby-image": "^2.2.18",
     "gatsby-plugin-algolia": "^0.3.4",
     "gatsby-plugin-feed": "^2.3.12",
@@ -105,12 +105,12 @@
     "postcss-utilities": "^0.8.4",
     "precss": "^3.1.2",
     "prettier": "^1.18.2",
-    "serve": "^11.1.0",
+    "serve": "^11.3.2",
     "sharp-cli": "^1.10.0",
     "stylelint": "^9.3.0",
     "stylelint-config-css-modules": "^1.4.0",
     "stylelint-config-standard": "^18.3.0",
     "url-loader": "^1.1.1",
-    "webpack-bundle-analyzer": "^3.4.1"
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }
