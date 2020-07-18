@@ -5,6 +5,7 @@
   "description": "Feature-rich blog with streamlined design.",
   "license": "MIT",
   "dependencies": {
+    "contentful": "^7.14.5",
     "fontfaceobserver": "^2.0.13",
     "gatsby": "^2.18.11",
     "gatsby-image": "^2.2.18",
