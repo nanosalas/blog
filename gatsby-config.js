@@ -322,6 +322,14 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ebplngi240wv`,
+        accessToken: `017AWBScT3vtAsHZtmnwXBSCWMB_a1rJUJ0psTWrUIA`,
+        host: `preview.contentful.com`,
+      },
     }
   ]
 };
