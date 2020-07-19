@@ -1,4 +1,6 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 const config = require("./content/meta/config");
 const transformer = require("./src/utils/algolia");
 
@@ -326,9 +328,9 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `ebplngi240wv`,
-        accessToken: `017AWBScT3vtAsHZtmnwXBSCWMB_a1rJUJ0psTWrUIA`,
-        host: `preview.contentful.com`,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        // host: `preview.contentful.com`,
       },
     }
   ]
