@@ -1,4 +1,6 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 const config = require("./content/meta/config");
 const transformer = require("./src/utils/algolia");
 
@@ -120,7 +122,7 @@ module.exports = {
           {
             resolve: "gatsby-plugin-google-tagmanager",
             options: {
-              id: "GTM-M3JD7MS",
+              id: process.env.GTM_ID,
 
               // Include GTM in development.
               // Defaults to false meaning GTM will only be loaded in production.
@@ -322,6 +324,6 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
-    }
+    },
   ]
 };
